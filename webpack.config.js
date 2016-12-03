@@ -11,6 +11,8 @@ module.exports = {
 
   watch: true,
 
+  devtool: "cheap-module-source-map",
+
   module: {
     loaders: [{
       test: /\.js$/,
